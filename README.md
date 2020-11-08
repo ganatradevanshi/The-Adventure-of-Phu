@@ -1,6 +1,6 @@
 # The-Adventure-of-Phu
 An android game application built in java. 
-The app aims to address the some of the most important characteristics that make an app addictive for the users to keep coming back to it.
+The app aims to address some of the most important characteristics that make an app addictive for the users to keep coming back to it.
 
 ###	Game Plot :
 -	Join Phu in his adventurous journey of skydiving. Help him avoid obstacles and land safely by navigating his way through the clouds.
