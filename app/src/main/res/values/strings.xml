@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NUMAD-Phu</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="title_activity_score">ScoreActivity</string>
+    <string name="title_activity_re_play">RePlayActivity</string>
+</resources>

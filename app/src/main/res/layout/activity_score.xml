@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scoreScreenLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sky"
+    tools:context=".activities.ScoreActivity">
+
+    <ImageView
+        android:id="@+id/phuscoreTheme"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="100dp"
+        android:src="@drawable/phuscore" />
+
+    <TextView
+        android:id="@+id/textScore"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="150dp"
+        android:fontFamily="@font/joti_one"
+        android:text="SCORES"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textScoreNow"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="@font/joti_one"
+        android:text="Current - "
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textScoreNowValue"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="320dp"
+        android:layout_marginLeft="270dp"
+        android:fontFamily="@font/joti_one"
+        android:text="0"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textScoreHighest"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="90dp"
+        android:fontFamily="@font/joti_one"
+        android:text="Highest - "
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/textScoreHighestValue"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="270dp"
+        android:fontFamily="@font/joti_one"
+        android:text="0"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/buttonMenu"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="558dp"
+        android:background="@drawable/restart"
+        android:fontFamily="@font/joti_one"
+        android:onClick="gameRestartClick" />
+
+
+    <Button
+        android:id="@+id/buttonScore"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="558dp"
+        android:layout_marginLeft="220dp"
+        android:background="@drawable/home"
+        android:fontFamily="@font/joti_one"
+        android:onClick="gameHomeClick" />
+
+</RelativeLayout>
